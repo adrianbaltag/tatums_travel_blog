@@ -10,12 +10,18 @@ h1, h3 {
 
 article {
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-    
+    border-radius: .75em;
+    padding-left: 1.1em;
+    box-shadow: -3px -3px 5px #806a1e;
 }
 
 header {
     background-image: url( https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
+    border-radius: .75em;
+    padding: 20%;
+    box-shadow: -6px 6px 8px #806a1e;
+    text-shadow: 5px 5px 6px #806a1e;
 }
 /* links styles */
 a {
@@ -25,4 +31,35 @@ a {
 
 a:hover {
     color: #4c4012;
+}
+
+img {
+    display: block; 
+    height: 20%;
+   border: 1px solid #ffd84f;
+   border-radius: .75em;
+   margin-bottom: 1em;
+   box-shadow: 3px 3px 5px #806a1e;
+}
+
+.subheading {
+    border-bottom: 1px solid #ffd84f;
+}
+
+/* .img2 {
+    height: 20%;
+} */
+
+.p_header {
+    color: #fee140;
+    
+}
+
+.par {
+    width: 20em;
+    height: auto;
+    background-color: #1a1a1a;
+    opacity: .7;
+    z-index: 11;
+    /* margin-left: 3em; */
 }
